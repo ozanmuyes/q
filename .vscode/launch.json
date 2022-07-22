@@ -19,7 +19,11 @@
           "kind": "bin"
         }
       },
-      "args": [],
+      // "args": ["((42 p 0xBABE) m 0o8) x 0b101 d 1"],
+      "args": ["-2--1"],
+      // "args": ["-2 --1"],
+      // "args": ["-2 - -1"],
+      // "args": ["(-2 --1) + 45"],
       "cwd": "${workspaceFolder}"
     },
     {
